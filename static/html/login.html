@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录 - 教务管理系统</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/css/admin.css">
+</head>
+<body>
+  <div class="login-page">
+    <div class="login-card">
+      <div class="login-logo">
+        <i class="bi bi-mortarboard-fill"></i>
+        <span>教务管理系统</span>
+      </div>
+      <p class="login-subtitle">校务管理平台 · 教务管理模块</p>
+
+      <form id="loginForm" novalidate>
+        <div class="alert alert-danger form-error" id="loginError"></div>
+
+        <div class="mb-3">
+          <label class="form-label">账号</label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <input type="text" class="form-control" id="username" placeholder="请输入账号" autocomplete="username" required>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <label class="form-label">密码</label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-lock"></i></span>
+            <input type="password" class="form-control" id="password" placeholder="请输入密码" autocomplete="current-password" required>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 login-btn">
+          <i class="bi bi-box-arrow-in-right me-1"></i>登 录
+        </button>
+      </form>
+
+      <div class="login-tip">
+        演示账号：admin &nbsp;|&nbsp; 密码：123456
+      </div>
+      <div class="login-tip" style="margin-top: 6px;">
+        还没有账号？<a href="/static/html/register.html">立即注册</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+2026-10-14 16:42:20,920 - AnyIO worker thread - [INFO] - cn.zsy.student.api:查询所有信息成功
+2026-10-14 16:48:27,293 - AnyIO worker thread - [INFO] - cn.zsy.student.api:{'id': 1, 'name': '张三', 'gerder': 'man', 'age': 22, 'teacher_id': 1, 'grade': '高二', 'enrollment_date': datetime.datetime(2026, 10, 9, 0, 0), 'create_time': datetime.datetime(2026, 10, 9, 13, 43, 46), 'email': None}
+2026-10-14 16:48:27,293 - AnyIO worker thread - [INFO] - cn.zsy.student.api:信息查询成功
+2026-10-14 16:50:30,572 - AnyIO worker thread - [INFO] - cn.zsy.student.api:查询所有信息成功
+2026-10-14 16:50:37,915 - AnyIO worker thread - [INFO] - cn.zsy.student.api:{'id': 1, 'name': '张三', 'gerder': 'man', 'age': 22, 'teacher_id': 1, 'grade': '高二', 'enrollment_date': datetime.datetime(2026, 10, 9, 0, 0), 'create_time': datetime.datetime(2026, 10, 9, 13, 43, 46), 'email': None}
+2026-10-14 16:50:37,915 - AnyIO worker thread - [INFO] - cn.zsy.student.api:信息查询成功
+2026-10-14 16:51:39,257 - AnyIO worker thread - [INFO] - cn.zsy.student.api:{'id': 1, 'name': '张三', 'gerder': 'man', 'age': 22, 'teacher_id': 1, 'grade': '高二', 'enrollment_date': datetime.datetime(2026, 10, 9, 0, 0), 'create_time': datetime.datetime(2026, 10, 9, 13, 43, 46), 'email': None}
+2026-10-14 16:51:39,257 - AnyIO worker thread - [INFO] - cn.zsy.student.api:信息查询成功
+2026-10-14 17:09:34,062 - AnyIO worker thread - [INFO] - cn.zsy.teacher.api:查询成功
+2026-10-15 11:50:34,821 - AnyIO worker thread - [INFO] - cn.zsy.student.api:删除学生信息成功
+2026-10-15 14:16:00,083 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：3条学生信息
+2026-10-15 14:16:14,845 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查询到1条学生信息
+2026-10-15 14:30:18,064 - AnyIO worker thread - [INFO] - cn.zsy.student.service:改：1学生信息
+2026-10-15 14:30:34,045 - AnyIO worker thread - [INFO] - cn.zsy.student.service:删除：一个学生信息12
+2026-10-15 17:21:46,399 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:查：9条老师信息
+2026-10-15 17:21:52,684 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:查询到1条学生信息
+2026-10-15 17:21:52,684 - AnyIO worker thread - [INFO] - cn.zsy.teacher.api:查询成功
+2026-10-15 17:22:17,924 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:增加18老师信息
+2026-10-15 17:22:37,432 - AnyIO worker thread - [INFO] - cn.zsy.teacher.api:更新成功
+2026-10-15 17:22:37,465 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:改：1学生信息
+2026-10-15 17:23:18,598 - AnyIO worker thread - [INFO] - cn.zsy.teacher.api:删除成功
+2026-10-15 17:23:18,628 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:删除：一个学生信息18
+2026-10-15 17:25:12,370 - AnyIO worker thread - [INFO] - cn.zsy.teacher.api:删除成功
+2026-10-15 17:25:12,393 - AnyIO worker thread - [ERROR] - cn.zsy.teacher.api:删除：一个教师信息异常，异常信息为：学生不存在
+2026-10-15 19:01:41,574 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:增加19老师信息
+2026-10-15 19:01:50,878 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:增加20老师信息
+2026-10-15 19:04:58,709 - AnyIO worker thread - [INFO] - cn.zsy.teacher.service:增加21老师信息
+2026-10-15 19:20:51,706 - AnyIO worker thread - [INFO] - cn.zsy.student.service:增加13学生信息
+2026-10-16 15:39:30,701 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:42:30,462 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:43:06,030 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:44:26,763 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:48:20,365 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:49:20,846 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:49:29,271 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 15:49:42,534 - AnyIO worker thread - [INFO] - cn.zsy.student.service:查：9条学生信息
+2026-10-16 17:07:32,687 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：9条学生信息
+2026-10-16 17:18:46,388 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：12条老师信息

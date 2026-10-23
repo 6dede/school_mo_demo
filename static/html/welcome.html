@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页 - 教务管理系统</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/css/admin.css">
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="page-header">
+      <div>
+        <h2 class="page-title">数据看板</h2>
+        <div class="page-subtitle">当前登录：<span id="welcomeUser">admin</span> · 校务管理平台</div>
+      </div>
+      <span class="badge-soft"><i class="bi bi-arrow-repeat me-1"></i>数据实时汇总自各业务模块</span>
+    </div>
+
+    <div class="row g-3 mb-3">
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="bi bi-people"></i></div>
+          <div><div class="stat-value" id="studentCount">-</div><div class="stat-label">学生总数</div></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="stat-card green">
+          <div class="stat-icon"><i class="bi bi-person-video3"></i></div>
+          <div><div class="stat-value" id="teacherCount">-</div><div class="stat-label">老师总数</div></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="stat-card purple">
+          <div class="stat-icon"><i class="bi bi-journal-bookmark"></i></div>
+          <div><div class="stat-value" id="subjectCount">-</div><div class="stat-label">学科总数</div></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="stat-card blue">
+          <div class="stat-icon"><i class="bi bi-building"></i></div>
+          <div><div class="stat-value" id="classCount">-</div><div class="stat-label">班级总数</div></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="stat-card orange">
+          <div class="stat-icon"><i class="bi bi-book"></i></div>
+          <div><div class="stat-value" id="courseCount">-</div><div class="stat-label">课程总数</div></div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="stat-card red">
+          <div class="stat-icon"><i class="bi bi-diagram-3"></i></div>
+          <div><div class="stat-value" id="assignmentCount">-</div><div class="stat-label">已分班学生</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-3">
+      <div class="col-12 col-sm-6 col-xl-3">
+        <div class="panel h-100">
+          <div class="panel-toolbar"><strong>成绩概况</strong></div>
+          <div class="p-3">
+            <div class="d-flex justify-content-between align-items-end mb-2">
+              <div>
+                <div class="mini-value" id="scoreAverage">-</div>
+                <div class="stat-label">平均分</div>
+              </div>
+              <span class="badge-soft green" id="passRate">及格率 -</span>
+            </div>
+            <div class="mini-stat"><span class="label">成绩记录</span><span class="value" id="scoreTotal">-</span></div>
+            <div class="mini-stat"><span class="label">奖励 / 处分</span><span class="value" id="awardSummary">-</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-3">
+        <div class="panel h-100">
+          <div class="panel-toolbar"><strong>考勤概况</strong></div>
+          <div class="p-3">
+            <div class="mini-stat"><span class="label">考勤总数</span><span class="value" id="attendanceTotal">-</span></div>
+            <div class="mini-stat"><span class="label">正常</span><span class="badge-soft green" id="attendanceNormal">-</span></div>
+            <div class="mini-stat"><span class="label">迟到</span><span class="badge-soft orange" id="attendanceLate">-</span></div>
+            <div class="mini-stat"><span class="label">缺勤</span><span class="badge-soft red" id="attendanceAbsent">-</span></div>
+            <div class="mini-stat"><span class="label">请假</span><span class="badge-soft gray" id="attendanceLeave">-</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-3">
+        <div class="panel h-100">
+          <div class="panel-toolbar"><strong>缴费概况</strong></div>
+          <div class="p-3">
+            <div class="mini-value" id="paidAmount">-</div>
+            <div class="stat-label mb-2">已缴金额（元）</div>
+            <div class="mini-stat"><span class="label">待缴费记录</span><span class="value" id="unpaidCount">-</span></div>
+            <div class="mini-stat"><span class="label">缴费状态</span><span class="badge-soft" id="paymentTip">-</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-3">
+        <div class="panel h-100">
+          <div class="panel-toolbar"><strong>宿舍概况</strong></div>
+          <div class="p-3">
+            <div class="mini-value" id="dormOccupied">-</div>
+            <div class="stat-label mb-2">已入住床位</div>
+            <div class="mini-stat"><span class="label">床位总数</span><span class="value" id="dormCapacity">-</span></div>
+            <div class="mini-stat"><span class="label">入住率</span><span class="badge-soft green" id="dormRate">-</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3 mb-3">
+      <div class="col-12 col-lg-5">
+        <div class="panel h-100">
+          <div class="panel-toolbar d-flex align-items-center justify-content-between">
+            <strong>班级人数分布</strong>
+            <span class="text-muted small">分班数据 Top 5</span>
+          </div>
+          <div class="table-responsive panel-table">
+            <table class="table mb-0">
+              <thead><tr><th style="width: 70px;">序号</th><th>班级名称</th><th style="width: 100px;">学生人数</th></tr></thead>
+              <tbody id="classStats"><tr><td colspan="3" class="empty-row">加载中...</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7">
+        <div class="panel h-100">
+          <div class="panel-toolbar d-flex align-items-center justify-content-between">
+            <strong>最新公告</strong>
+            <span class="text-muted small">点击查看详情 · 可滚动</span>
+          </div>
+          <ul class="notice-list" id="noticeList"><li class="empty-row">加载中...</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-toolbar"><strong>快捷入口</strong></div>
+      <div class="p-3 row g-2">
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/student/list.html" data-title="学生管理"><i class="bi bi-people me-2 text-primary"></i>学生管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/teacher/list.html" data-title="老师管理"><i class="bi bi-person-video3 me-2 text-success"></i>老师管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/subject/list.html" data-title="学科管理"><i class="bi bi-journal-bookmark me-2 text-warning"></i>学科管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/classroom/list.html" data-title="班级管理"><i class="bi bi-building me-2 text-danger"></i>班级管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/course/list.html" data-title="课程管理"><i class="bi bi-book me-2 text-primary"></i>课程管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/timetable/list.html" data-title="课表中心"><i class="bi bi-calendar3 me-2 text-success"></i>课表中心</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/classmember/list.html" data-title="分班管理"><i class="bi bi-diagram-3 me-2 text-warning"></i>分班管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/score/list.html" data-title="成绩管理"><i class="bi bi-clipboard-data me-2 text-danger"></i>成绩管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/attendance/list.html" data-title="考勤管理"><i class="bi bi-calendar-check me-2 text-primary"></i>考勤管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/award/list.html" data-title="奖惩管理"><i class="bi bi-award me-2 text-success"></i>奖惩管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/notice/list.html" data-title="公告管理"><i class="bi bi-megaphone me-2 text-warning"></i>公告管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/payment/list.html" data-title="缴费管理"><i class="bi bi-cash-coin me-2 text-danger"></i>缴费管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><button type="button" class="btn btn-light border text-start w-100" data-url="/static/html/dormitory/list.html" data-title="宿舍管理"><i class="bi bi-house me-2 text-primary"></i>宿舍管理</button></div>
+        <div class="col-6 col-md-4 col-xl-2"><a class="btn btn-light border text-start w-100" href="/docs" target="_blank"><i class="bi bi-code-square me-2 text-success"></i>接口文档</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 公告详情弹窗 -->
+  <div class="modal fade" id="noticeModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="bi bi-megaphone me-2"></i>学校公告</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body" id="noticeDetail">
+          <div class="text-center text-muted py-4">公告加载中...</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/welcome.js"></script>
+</body>
+</html>

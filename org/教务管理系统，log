@@ -1,0 +1,783 @@
+2026-10-19 13:51:14,374 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：12条老师信息
+2026-10-19 13:51:22,943 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条学生信息
+2026-10-19 13:51:22,943 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-19 13:54:39,501 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:更新成功
+2026-10-19 13:57:08,488 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:更新成功
+2026-10-19 13:57:08,493 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:改：1学生信息
+2026-10-19 14:17:55,304 - AnyIO worker thread - [INFO] - org.zsy.student.service:查询成功
+2026-10-19 14:26:28,129 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询成功
+2026-10-19 16:05:46,707 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页3条 关键字= 共10条
+2026-10-19 17:15:59,698 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页3条 关键字= 共10条
+2026-10-19 17:16:15,943 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字= 共10条
+2026-10-19 17:16:28,686 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字= 共10条
+2026-10-19 17:19:57,946 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字= 共10条
+2026-10-19 17:20:24,188 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字= 共10条
+2026-10-19 17:24:20,694 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字=s 共5条
+2026-10-19 17:24:28,366 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字=张 共1条
+2026-10-19 17:24:34,784 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字=s 共5条
+2026-10-19 17:25:00,337 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字=王 共1条
+2026-10-19 17:36:43,810 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页4条 关键字=王 共1条
+2026-10-19 17:36:53,294 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页4条 关键字=s 共5条
+2026-10-19 19:16:27,057 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询成功
+2026-10-20 10:16:33,053 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条学生信息
+2026-10-20 10:16:33,053 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 10:27:13,595 - AnyIO worker thread - [WARNING] - org.zsy.student.service:老师不存在
+2026-10-20 10:27:13,597 - MainThread - [WARNING] - main:请求/student/add 业务异常：操作失败
+2026-10-20 10:57:23,042 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-20 10:57:28,865 - AnyIO worker thread - [INFO] - org.zsy.subject.service:查询：4条学科信息
+2026-10-20 10:57:38,488 - AnyIO worker thread - [INFO] - org.zsy.subject.service:查询id=2的学科信息
+2026-10-20 10:57:54,222 - AnyIO worker thread - [INFO] - org.zsy.subject.service:新增学科id=5
+2026-10-20 10:58:10,746 - AnyIO worker thread - [INFO] - org.zsy.subject.service:修改：id=1学科信息
+2026-10-20 10:58:23,190 - AnyIO worker thread - [INFO] - org.zsy.subject.service:删除：学科id=5
+2026-10-20 11:44:33,805 - AnyIO worker thread - [INFO] - org.zsy.subject.service:查询id=1的学科信息
+2026-10-20 19:24:17,628 - AnyIO worker thread - [INFO] - org.zsy.student.service:查询到1条学生信息
+2026-10-20 19:26:47,254 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:26:47,254 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:30:21,989 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:30:21,989 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:30:36,240 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:30:36,240 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:36:46,126 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:36:46,126 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:36:57,360 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:36:57,360 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:39:35,760 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:39:35,760 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:40:13,809 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:40:13,810 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:41:07,153 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:41:07,153 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:52:19,110 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:52:19,110 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:55:51,124 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:55:51,124 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:58:44,486 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:58:44,486 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-20 19:59:02,637 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查询到1条老师信息
+2026-10-20 19:59:02,637 - AnyIO worker thread - [INFO] - org.zsy.teacher.api:查询成功
+2026-10-21 12:49:41,041 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页1条 关键字= 共12条
+2026-10-21 12:49:41,152 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页1条 关键字= 共10条
+2026-10-21 12:49:41,261 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页1条 关键字= 共4条
+2026-10-21 13:29:22,522 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 13:29:22,522 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:29:27,451 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:29:27,458 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 13:32:47,651 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:48,348 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:32:48,354 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-21 13:32:51,279 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:52,385 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:53,065 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:54,026 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:54,962 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:32:54,966 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 13:32:55,433 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:56,055 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:56,237 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:56,408 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:56,564 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:56,745 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:59,430 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:59,619 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:59,795 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:32:59,949 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:33:00,100 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 13:33:05,290 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字=张 共3条
+2026-10-21 13:33:17,878 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:33:17,886 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-21 13:33:25,570 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:33:25,576 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 13:33:27,205 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-21 13:33:28,015 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 13:33:28,495 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-21 13:33:29,710 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 13:33:30,345 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 13:33:30,345 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:34:02,817 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 13:34:02,818 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 13:37:01,082 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 13:37:01,153 - AnyIO worker thread - [INFO] - org.zsy.user.service:注册用户：testuser
+2026-10-21 13:37:01,158 - MainThread - [WARNING] - org.zsy.main:请求/user/register 业务异常：用户名已存在
+2026-10-21 13:37:01,214 - MainThread - [WARNING] - org.zsy.main:请求/user/login 业务异常：用户名或密码错误
+2026-10-21 13:37:01,259 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：testuser
+2026-10-21 13:45:25,784 - MainThread - [WARNING] - org.zsy.main:请求/user/login 业务异常：用户名或密码错误
+2026-10-21 13:45:33,227 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 13:45:33,279 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 13:45:33,280 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:27,013 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:27,017 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 14:02:45,346 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:02:45,347 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:47,352 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:47,359 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 14:02:48,847 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 14:02:53,089 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:53,089 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:02:55,693 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:55,699 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 14:02:56,662 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 14:02:57,637 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:02:57,644 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-21 14:03:22,203 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:03:22,209 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 14:26:40,148 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字=测试 共0条
+2026-10-21 14:26:40,184 - MainThread - [ERROR] - org.zsy.main:请求/classroom/one 参数错误：1 validation error:
+  {'type': 'int_parsing', 'loc': ('query', 'class_id'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': ''}
+
+  File "D:\wanhoAi\projectAll\py-104\org\zsy\classroom\api.py", line 29, in getOne
+    GET /classroom/one
+2026-10-21 14:26:40,304 - MainThread - [ERROR] - org.zsy.main:请求/classroom/delete 参数错误：1 validation error:
+  {'type': 'int_parsing', 'loc': ('query', 'class_id'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': ''}
+
+  File "D:\wanhoAi\projectAll\py-104\org\zsy\classroom\api.py", line 57, in delete_one
+    DELETE /classroom/delete
+2026-10-21 14:26:49,976 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:新增班级id=3
+2026-10-21 14:26:49,982 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字=测试 共1条
+2026-10-21 14:26:49,986 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查询id=3的班级信息
+2026-10-21 14:26:49,995 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:修改：id=3班级信息
+2026-10-21 14:26:49,998 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查询id=3的班级信息
+2026-10-21 14:26:50,008 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:删除：班级id=3
+2026-10-21 14:26:50,012 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共0条
+2026-10-21 14:27:19,627 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:27:19,692 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:27:19,693 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:28:03,893 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:28:04,009 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:28:04,010 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:28:05,386 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共0条
+2026-10-21 14:28:31,510 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:新增班级id=4
+2026-10-21 14:28:31,516 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共1条
+2026-10-21 14:28:42,028 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共1条
+2026-10-21 14:36:01,424 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:新增班级id=5
+2026-10-21 14:36:01,431 - AnyIO worker thread - [INFO] - org.zsy.subject.service:新增学科id=8
+2026-10-21 14:36:01,440 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:增加25老师信息
+2026-10-21 14:36:01,450 - AnyIO worker thread - [INFO] - org.zsy.subject.service:删除：学科id=8
+2026-10-21 14:36:01,458 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:删除：班级id=5
+2026-10-21 14:36:19,848 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：11条老师信息
+2026-10-21 14:36:19,861 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:删除：一个老师信息25
+2026-10-21 14:36:19,876 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:新增班级id=6
+2026-10-21 14:36:19,884 - AnyIO worker thread - [INFO] - org.zsy.subject.service:新增学科id=9
+2026-10-21 14:36:19,896 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:增加26老师信息
+2026-10-21 14:36:19,900 - AnyIO worker thread - [INFO] - org.zsy.student.service:增加25学生信息
+2026-10-21 14:36:19,916 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:新增分班记录id=1
+2026-10-21 14:36:19,932 - AnyIO worker thread - [INFO] - org.zsy.course.service:新增课程id=1
+2026-10-21 14:36:19,948 - AnyIO worker thread - [INFO] - org.zsy.score.service:录入成绩id=1
+2026-10-21 14:36:19,951 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:新增考勤id=1
+2026-10-21 14:36:19,963 - AnyIO worker thread - [INFO] - org.zsy.award.service:新增奖惩id=1
+2026-10-21 14:36:19,979 - AnyIO worker thread - [INFO] - org.zsy.payment.service:新增缴费id=1
+2026-10-21 14:36:20,001 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:新增宿舍id=1
+2026-10-21 14:36:20,001 - AnyIO worker thread - [INFO] - org.zsy.notice.service:发布公告id=1
+2026-10-21 14:36:20,011 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字=测试 共1条
+2026-10-21 14:36:20,011 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共1条
+2026-10-21 14:36:20,011 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共1条
+2026-10-21 14:36:20,027 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共1条
+2026-10-21 14:36:20,035 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共1条
+2026-10-21 14:36:20,040 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共1条
+2026-10-21 14:36:20,044 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共1条
+2026-10-21 14:36:20,047 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共1条
+2026-10-21 14:36:20,063 - AnyIO worker thread - [INFO] - org.zsy.notice.service:删除公告id=1
+2026-10-21 14:36:20,063 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:删除宿舍id=1
+2026-10-21 14:36:20,079 - AnyIO worker thread - [INFO] - org.zsy.payment.service:删除缴费id=1
+2026-10-21 14:36:20,079 - AnyIO worker thread - [INFO] - org.zsy.award.service:删除奖惩id=1
+2026-10-21 14:36:20,103 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:删除考勤id=1
+2026-10-21 14:36:20,109 - AnyIO worker thread - [INFO] - org.zsy.score.service:删除成绩id=1
+2026-10-21 14:36:20,109 - AnyIO worker thread - [INFO] - org.zsy.course.service:删除课程id=1
+2026-10-21 14:36:20,125 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:删除分班记录id=1
+2026-10-21 14:36:20,141 - AnyIO worker thread - [INFO] - org.zsy.student.service:删除：一个学生信息25
+2026-10-21 14:36:20,141 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:删除：一个老师信息26
+2026-10-21 14:36:20,156 - AnyIO worker thread - [INFO] - org.zsy.subject.service:删除：学科id=9
+2026-10-21 14:36:20,156 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:删除：班级id=6
+2026-10-21 14:37:58,287 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:38:36,794 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:38:36,799 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共12条
+2026-10-21 14:38:37,526 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共10条
+2026-10-21 14:38:38,069 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:38:38,072 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共4条
+2026-10-21 14:38:39,116 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共1条
+2026-10-21 14:38:39,661 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：1条班级信息
+2026-10-21 14:38:39,661 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：10条老师信息
+2026-10-21 14:38:39,667 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共0条
+2026-10-21 14:38:42,242 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：1条班级信息
+2026-10-21 14:38:44,209 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:38:44,209 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：1条班级信息
+2026-10-21 14:38:44,215 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共0条
+2026-10-21 14:39:21,136 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:21,146 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共0条
+2026-10-21 14:39:21,299 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:21,308 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共0条
+2026-10-21 14:39:21,795 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:21,800 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共0条
+2026-10-21 14:39:21,945 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:21,954 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共0条
+2026-10-21 14:39:22,533 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:22,535 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共0条
+2026-10-21 14:39:22,704 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:22,713 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共0条
+2026-10-21 14:39:24,838 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:24,843 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共0条
+2026-10-21 14:39:24,981 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：12条学生信息
+2026-10-21 14:39:24,988 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共0条
+2026-10-21 14:39:25,633 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：1条班级信息
+2026-10-21 14:39:25,644 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共0条
+2026-10-21 14:39:25,772 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：1条班级信息
+2026-10-21 14:39:25,779 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共0条
+2026-10-21 14:39:26,184 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共0条
+2026-10-21 14:39:26,341 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共0条
+2026-10-21 14:44:59,325 - MainThread - [INFO] - org.zsy.classroom.service:新增班级id=12
+2026-10-21 14:44:59,341 - MainThread - [INFO] - org.zsy.student.service:增加36学生信息
+2026-10-21 14:44:59,341 - MainThread - [INFO] - org.zsy.classmember.service:新增分班记录id=12
+2026-10-21 14:44:59,373 - MainThread - [INFO] - org.zsy.classroom.service:修改：id=12班级信息
+2026-10-21 14:44:59,389 - MainThread - [INFO] - org.zsy.classmember.service:删除分班记录id=12
+2026-10-21 14:44:59,389 - MainThread - [INFO] - org.zsy.student.service:删除：一个学生信息36
+2026-10-21 14:44:59,405 - MainThread - [INFO] - org.zsy.classroom.service:删除：班级id=12
+2026-10-21 14:44:59,405 - MainThread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:44:59,436 - MainThread - [INFO] - org.zsy.classroom.service:修改：id=7班级信息
+2026-10-21 14:44:59,452 - MainThread - [INFO] - org.zsy.classroom.service:修改：id=7班级信息
+2026-10-21 14:44:59,452 - MainThread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:44:59,468 - MainThread - [INFO] - org.zsy.student.service:改：26学生信息
+2026-10-21 14:44:59,484 - MainThread - [INFO] - org.zsy.student.service:改：26学生信息
+2026-10-21 14:44:59,484 - MainThread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:48:17,903 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:48:17,915 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:48:29,884 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:48:29,887 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:49:02,459 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:49:02,465 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:49:06,280 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:49:06,290 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:51:46,674 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:51:47,151 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:51:52,667 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:51:55,269 - MainThread - [WARNING] - org.zsy.main:请求/user/login 业务异常：用户名或密码错误
+2026-10-21 14:51:58,982 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:51:58,997 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:51:59,587 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:52:00,227 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:52:00,242 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:00,258 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:00,423 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:52:00,545 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:52:02,253 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:02,269 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:52:11,009 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:52:12,701 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:52:15,466 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:15,476 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:16,503 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:16,530 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:52:19,685 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:19,685 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:52:19,768 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:52:20,154 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:20,161 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:20,196 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:52:21,198 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:21,214 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:21,597 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:21,616 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:22,392 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:52:22,696 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:52:24,359 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:24,367 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:24,791 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:52:24,807 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:52:24,841 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:52:26,446 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:26,446 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:26,510 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:52:27,190 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:27,191 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:27,248 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:52:27,616 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:52:27,735 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:27,735 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:27,800 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:52:28,941 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:28,943 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:52:30,487 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:31,968 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:52:33,621 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:33,625 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:52:34,083 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:34,084 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:34,085 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:52:34,966 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:34,968 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:35,023 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:52:35,998 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:36,038 - MainThread - [WARNING] - org.zsy.main:请求/user/login 业务异常：用户名或密码错误
+2026-10-21 14:52:36,414 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:52:37,524 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:37,524 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:37,526 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:52:37,536 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:37,543 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:37,883 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:37,892 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:52:39,603 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:39,651 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:52:40,020 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:40,036 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:40,291 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:40,291 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:52:40,608 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:52:41,071 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:41,073 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:41,735 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:41,751 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:52:44,447 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:52:44,814 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:52:44,876 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:52:44,876 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:44,931 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:52:45,465 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:45,465 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:45,475 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:52:46,388 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:46,403 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:52:46,475 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:46,482 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:46,777 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:46,784 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:52:48,390 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:48,396 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:51,054 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:51,060 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:52:51,862 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:51,909 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:52:52,832 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:53,439 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:53,488 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:52:53,770 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:52:54,225 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:54,225 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:54,274 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:52:54,308 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:54,356 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:52:54,359 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:54,364 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:52:54,640 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:56,184 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:56,190 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:57,194 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:57,208 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:57,635 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:57,635 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:52:57,738 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:52:58,126 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:58,142 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:52:58,189 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:52:58,326 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:52:58,341 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:01,201 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:01,220 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:53:01,887 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:01,903 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:02,973 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:02,989 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:03,036 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:03,036 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:03,052 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:03,068 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:03,084 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:53:03,401 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:03,417 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:03,596 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:53:04,010 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:04,015 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:53:04,608 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:04,617 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:53:05,338 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:05,342 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:53:05,391 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:05,405 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:06,406 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:06,413 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:53:06,831 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:06,862 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:53:07,086 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:53:07,150 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:07,168 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:07,460 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:07,462 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:07,516 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:53:08,166 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:08,475 - AnyIO worker thread - [INFO] - org.zsy.user.service:注册用户：112
+2026-10-21 14:53:08,602 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:08,618 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:08,682 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:53:09,540 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:09,555 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:09,811 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:09,811 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:09,875 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:53:10,226 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:10,242 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:10,914 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:13,171 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:53:15,104 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:15,632 - MainThread - [WARNING] - org.zsy.main:请求/user/login 业务异常：用户名或密码错误
+2026-10-21 14:53:16,239 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:16,255 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:53:16,366 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:53:18,754 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:53:19,294 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:19,301 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:53:19,349 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:19,349 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:19,397 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:53:19,642 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：112
+2026-10-21 14:53:20,813 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:53:21,354 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:21,354 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:21,417 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:53:21,790 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:21,799 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:22,560 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:22,577 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:53:23,441 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:23,441 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:23,497 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:53:24,387 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:24,450 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:53:24,945 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:53:25,629 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:25,645 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:53:28,706 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:28,706 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:28,959 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:28,980 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:53:30,047 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:30,047 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:30,111 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:53:31,941 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:53:34,091 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共0条
+2026-10-21 14:53:34,716 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:34,763 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:53:36,282 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共1条
+2026-10-21 14:53:36,681 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:36,692 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:37,194 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:53:38,386 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共1条
+2026-10-21 14:53:40,088 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:40,451 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共1条
+2026-10-21 14:53:41,244 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:41,260 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:53:43,657 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:43,665 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:44,274 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:44,275 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:44,324 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:53:44,653 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:53:47,970 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:53:48,635 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:48,651 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:50,819 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:53:53,356 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:53,356 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:53,409 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:53:55,311 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:55,313 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:53:55,402 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:56,534 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:56,540 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:53:56,969 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:53:57,435 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:53:57,442 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:53:57,520 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:57,520 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:53:57,574 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:53:59,735 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:53:59,745 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:53:59,783 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:54:02,943 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:02,952 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:03,399 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:54:03,407 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:54:04,992 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:05,001 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:54:06,269 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:54:07,336 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 14:54:08,201 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:08,211 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:54:08,480 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 14:54:10,398 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:54:10,405 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:54:10,540 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:54:10,540 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:10,596 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:54:10,622 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:54:10,679 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:54:13,287 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:13,296 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:14,848 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:54:17,438 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:17,462 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:54:17,983 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:18,000 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:18,821 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:18,822 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:54:18,882 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:54:19,477 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:54:20,172 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:54:21,046 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:54:22,333 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:22,341 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:22,761 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:54:25,053 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:25,060 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:54:25,348 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:54:25,364 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:54:29,179 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:29,190 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:34,279 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:34,290 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:54:34,607 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:34,617 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:36,451 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:36,460 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:54:37,191 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:37,199 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:54:53,240 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:54:59,752 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:54:59,764 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:55:08,061 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:55:08,116 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:55:11,071 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:55:11,093 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-21 14:55:20,526 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:55:20,534 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:55:21,369 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:55:21,378 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:55:21,892 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:55:22,637 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:55:22,638 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:55:22,696 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:55:22,731 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:55:23,246 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:55:23,775 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:55:23,776 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:55:23,842 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:55:24,927 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:55:25,372 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:55:26,645 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:55:26,655 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:55:32,497 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:55:52,326 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:55:58,908 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 14:56:02,721 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:56:02,733 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:56:04,143 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:56:04,152 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:56:04,820 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:56:06,903 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:56:12,622 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:56:12,632 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:56:15,931 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 14:56:17,420 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 14:56:18,033 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:56:18,040 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:56:18,088 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:56:19,911 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:56:22,755 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 14:56:30,351 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:56:30,358 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:56:33,720 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:56:33,720 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:56:33,785 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:57:06,493 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:57:06,528 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:57:15,736 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:57:15,755 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 14:57:19,398 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:57:19,408 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 14:57:20,398 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 14:57:22,067 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:57:22,130 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 14:57:24,359 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:57:24,374 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 14:57:24,816 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:57:24,818 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:57:24,878 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:57:25,495 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:57:25,496 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:57:25,562 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:57:25,910 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:57:51,108 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:57:53,626 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:57:53,629 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:57:53,681 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:57:54,933 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:58:33,094 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:58:34,588 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:58:34,589 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:58:34,652 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:58:35,657 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:58:35,659 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:58:35,710 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 14:58:38,849 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 14:58:38,850 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 14:58:38,919 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 14:58:39,523 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 14:59:12,303 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 14:59:12,318 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-21 15:03:05,101 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 15:03:31,994 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:03:32,003 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:03:33,585 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 15:03:34,889 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:03:34,899 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 15:03:46,624 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 15:03:47,848 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:03:47,848 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:03:47,902 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:03:50,797 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:03:52,014 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:03:53,232 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:03:54,558 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:03:54,781 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:03:56,770 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页20条 关键字= 共15条
+2026-10-21 15:04:39,012 - AnyIO worker thread - [INFO] - org.zsy.course.service:修改课程id=2
+2026-10-21 15:04:39,070 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页20条 关键字= 共15条
+2026-10-21 15:04:48,785 - AnyIO worker thread - [INFO] - org.zsy.course.service:修改课程id=2
+2026-10-21 15:04:48,847 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页20条 关键字= 共15条
+2026-10-21 15:04:53,543 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:04:54,727 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 15:04:54,729 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:04:54,795 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 15:04:57,218 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:04:57,277 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-21 15:04:58,475 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 15:04:58,482 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-21 15:04:59,620 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 15:09:21,641 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 15:09:22,743 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:09:22,771 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:11:16,149 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-21 15:13:50,964 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:13:50,971 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:13:56,372 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 15:13:56,870 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:13:56,877 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 15:13:57,229 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:13:57,230 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:13:57,237 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:13:57,563 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:13:58,369 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:13:58,375 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 15:13:58,382 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 15:14:27,444 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:14:27,453 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 15:16:15,490 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-21 15:16:22,794 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:16:22,794 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:16:24,309 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 15:16:24,321 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-21 15:16:26,085 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 15:16:26,804 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:16:26,804 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:16:30,924 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:16:32,586 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:16:33,740 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:16:34,729 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:16:35,895 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:16:41,139 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 15:16:42,533 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:16:42,539 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 15:16:44,146 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:16:44,161 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:16:57,355 - AnyIO worker thread - [INFO] - org.zsy.student.service:改：1学生信息
+2026-10-21 15:16:57,420 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:17:00,602 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:17:00,618 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 15:17:01,672 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 15:17:01,983 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 15:17:02,609 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:17:02,609 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:17:02,672 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:30:55,799 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:30:55,805 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:30:56,974 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-21 15:30:57,383 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:30:57,390 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-21 15:30:57,875 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-21 15:30:58,323 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:30:58,324 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:30:58,375 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:31:00,247 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 15:31:00,248 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-21 15:31:00,306 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-21 15:31:00,837 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 16:01:57,445 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-21 16:01:57,445 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-21 16:01:57,504 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-21 19:39:39,064 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-22 09:11:48,657 - AnyIO worker thread - [INFO] - org.zsy.user.service:用户登录：admin
+2026-10-22 09:12:29,668 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:12:29,675 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:12:31,481 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-22 09:12:32,388 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:12:32,392 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-22 09:12:33,033 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-22 09:12:33,608 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-22 09:12:34,467 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:12:34,467 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:12:34,475 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-22 09:12:35,276 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:12:49,225 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:12:49,225 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:12:49,237 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-22 09:13:00,035 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:13:00,045 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-22 09:13:04,245 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:13:04,253 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-22 09:13:09,525 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:13:09,535 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-22 09:13:17,156 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-22 09:13:18,771 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:13:18,778 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-22 09:13:27,617 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:13:27,618 - AnyIO worker thread - [INFO] - org.zsy.dormitory.service:宿舍分页：第1页 每页10条 共6条
+2026-10-22 09:13:34,995 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:13:35,003 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:28:46,717 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:28:46,723 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:28:47,685 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-22 09:28:48,395 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:28:48,402 - AnyIO worker thread - [INFO] - org.zsy.subject.service:分页查询：第1页 每页10条 关键字= 共9条
+2026-10-22 09:28:48,888 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-22 09:28:49,360 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:28:49,360 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:28:49,367 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-22 09:28:50,430 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:28:51,326 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:28:51,326 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:28:51,334 - AnyIO worker thread - [INFO] - org.zsy.classmember.service:分班分页：第1页 每页10条 关键字= 共10条
+2026-10-22 09:28:53,705 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:28:53,706 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:28:53,714 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-22 09:28:59,269 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:28:59,283 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-22 09:29:00,579 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:29:00,589 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-22 09:29:01,246 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:29:01,254 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-22 09:29:03,583 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:29:03,593 - AnyIO worker thread - [INFO] - org.zsy.payment.service:缴费分页：第1页 每页10条 共20条
+2026-10-22 09:29:04,881 - AnyIO worker thread - [INFO] - org.zsy.notice.service:公告分页：第1页 每页10条 共6条
+2026-10-22 09:29:07,648 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:29:07,651 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:29:07,661 - AnyIO worker thread - [INFO] - org.zsy.course.service:课程分页：第1页 每页10条 关键字= 共15条
+2026-10-22 09:29:08,105 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:分页查询：第1页 每页10条 关键字= 共6条
+2026-10-22 09:29:09,190 - AnyIO worker thread - [INFO] - org.zsy.classroom.service:查：6条班级信息
+2026-10-22 09:29:15,563 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:29:15,574 - AnyIO worker thread - [INFO] - org.zsy.score.service:成绩分页：第1页 每页10条 关键字= 共30条
+2026-10-22 09:29:15,984 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:29:15,995 - AnyIO worker thread - [INFO] - org.zsy.attendance.service:考勤分页：第1页 每页10条 关键字= 共30条
+2026-10-22 09:29:16,340 - AnyIO worker thread - [INFO] - org.zsy.student.service:查：22条学生信息
+2026-10-22 09:29:16,350 - AnyIO worker thread - [INFO] - org.zsy.award.service:奖惩分页：第1页 每页10条 共8条
+2026-10-22 09:29:19,121 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:29:19,131 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:29:21,727 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:分页查询：第1页 每页10条 关键字= 共16条
+2026-10-22 09:29:23,239 - AnyIO worker thread - [INFO] - org.zsy.teacher.service:查：16条老师信息
+2026-10-22 09:29:23,250 - AnyIO worker thread - [INFO] - org.zsy.student.service:分页查：第1页 每页10条 关键字= 共22条
